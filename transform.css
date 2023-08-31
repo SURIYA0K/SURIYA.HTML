@@ -1,0 +1,27 @@
+body{
+    height: 600px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left,rgba(7, 204, 204, 0.966),rgb(3, 179, 47));
+}
+div{
+    border: 3px solid black;
+    width: 200px;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background: linear-gradient(to right,rgb(5, 199, 206),rgb(5, 85, 189));
+    transition-property: transform;
+    transform: skew(360deg);
+    transition-duration: 30s;
+    transition-delay: 1s;
+}
+div:hover{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to right,green,yellow);
+    cursor: pointer;
+}
