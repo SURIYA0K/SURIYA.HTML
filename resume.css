@@ -1,0 +1,86 @@
+body{
+    background-color: #d5d5d5;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    background-color: azure;
+    width: 1000px;
+    max-width: 100%;
+    margin: auto;
+    padding: 50px;
+    box-shadow: 0 10px 50px #858585;
+    display: grid;
+    grid-template-columns: 35% 60%;
+    column-gap: 5%;
+    row-gap: 30px;
+}
+.ab{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.ab{
+    display: flex;
+    justify-content: end;
+}
+.name{
+    padding-left: 30px;
+    border-left: 1px solid #c20909;
+}
+.name h1{
+    font-weight: 300;
+    font-size: xx-large;
+    margin: 0 0 5px;
+}
+.name .specialize{
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.name.contact{
+    padding: 0;
+    list-style: none;
+}
+.name.name.contact li{
+    padding: 5px 0;
+    transform: translate(-40px);
+    background-color: #E9E7Ea;
+}
+.info ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: right;
+    line-height: 30px;
+}
+.intro{
+    padding-left: 30px;
+    border-left: 1px solid #000;
+    text-align: justify;
+}
+h2{
+    padding: 0;
+    margin: 0 0 20px;
+}
+.edu{
+    text-align: right;
+}
+.skills{
+    margin-top: 50px;
+}
+.edu ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    line-height: 20px;
+}
+.project{
+    padding-left: 30px;
+    text-align: justify;
+    border-left: 1px solid #000;
+    line-height: 20px;
+}
+.address{
+    padding: 2px;
+}
