@@ -1,0 +1,45 @@
+body{
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(to right,blue,red);
+}
+.ab{
+
+    color: white;
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    position: absolute;
+}
+@keyframes rotate{
+    0%{left: 0%; top: 0%;font-size: 2rem;}
+    25%{
+        left:90%;
+        top: 0%;
+        font-size: 1rem;
+        color: rgb(9, 211, 110);
+        
+
+    }
+      50%{ 
+        top: 300px;
+        left: 0;
+        font-size:30px ;
+        color: chartreuse;
+    }
+    75%{
+        left:1100px;
+        top: 500px;
+        font-size:50px ;
+        color: rgb(9, 215, 230);
+
+    
+    }
+    100%{ 
+        left: 450px;
+        top: 250px;
+        font-size: 100px;
+        color: gold;
+}
+}
